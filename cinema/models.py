@@ -20,11 +20,11 @@ class Filme(models.Model):
 
     titulo = models.CharField(max_length=255)
     sinopse = models.CharField(max_length=1255)
-    genero = models.ForeignKey(Genero, on_delete="cascade")
+    genero = models.ForeignKey(Genero, on_delete=models.CASCADE)
     ano_lancamento = models.DateField()
     duracao_em_min = models.IntegerField()
     faixa_etaria = models.CharField(max_length=50, choices = FAIXAS_ETARIAS_CHOICES)
     
 class Sessao(models.Model):
-    filme = models.ForeignKey(Filme, on_delete="cascade")
+    filme = models.ForeignKey(Filme, on_delete=models.CASCADE)
     quantidade_cadeiras = models.IntegerField(default=120)

@@ -1,2 +1,2 @@
-# Sistema back-end para gerenciamento de filmes e sessões
-Detalhes em breve
+# API CineReserve
+A API CineReserve é um backend RESTful escalável e de alto desempenho, projetado para gerenciar as complexidades das operações modernas de cinema. Construído com foco na integridade dos dados e no controle de concorrência, o sistema oferece um portal completo para que os cinéfilos descubram filmes, visualizem a disponibilidade de assentos em tempo real e garantam ingressos por meio de um fluxo de reservas robusto.
